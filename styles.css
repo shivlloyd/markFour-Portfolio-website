@@ -4,7 +4,7 @@
     --primary-color: #7c3aed;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -24,12 +24,12 @@ hr {
 }
 
 /** links **/
-.link{
+.link {
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
-.link-primary{
+.link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
@@ -44,10 +44,35 @@ hr {
 /** lists **/
 
 .list-non-bullet {
-    list-style:none;
+    list-style: none;
 }
 
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+/** navigation **/
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
 }

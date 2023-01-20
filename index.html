@@ -1,135 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Component Library</title>
-        <link href="styles.css" rel="stylesheet">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
 
-    <body>
-        <h1>Shivam's component library</h1>
-        <p>I am attending neog.camp and I want to make a library whih would make all my
-            projects look good and consistent.
-        </p>
+<body>
+    <h1>Shivam's component library</h1>
+    <p>I am attending neog.camp and I want to make a library whih would make all my
+        projects look good and consistent.
+    </p>
 
-        <hr>
+    <hr>
 
-        <h2>@typography</h2>
+    <h2>@typography</h2>
 
-        <h1>This is the biggest heading</h1>
-        <h2>This is the second biggest</h2>
-        <p>Let me show you the normal text. This is free flowing and will wrap at the end
-            like a paragraph.
-        </p>
-        <p>This paragraph will have a <strong>bold</strong> text.</p>
-        <small>this is relatively smaller text</small>
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second biggest</h2>
+    <p>Let me show you the normal text. This is free flowing and will wrap at the end
+        like a paragraph.
+    </p>
+    <p>This paragraph will have a <strong>bold</strong> text.</p>
+    <small>this is relatively smaller text</small>
 
-        <hr>
+    <hr>
 
-        <h2>@container</h2>
+    <h2>@container</h2>
 
-        <h3>fluid container</h3>
-        <div class="container">This is a fluid container and it will go till the end of the page.</div>
+    <h3>fluid container</h3>
+    <div class="container">This is a fluid container and it will go till the end of the page.</div>
 
-        <h3>center container</h3>
-        <div class="container container-center">This is a centered container and it will go till the specified width.</div>
+    <h3>center container</h3>
+    <div class="container container-center">This is a centered container and it will go till the specified width.</div>
 
-        <hr>
+    <hr>
 
-        <h2>@links</h2>
+    <h2>@links</h2>
 
-        <a class="link link-primary" href="/">Primary Link</a>
-        <a class="link link-secondary" href="/">Secondary Link</a>
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
 
-        <hr>
+    <hr>
 
-        <h2>@lists</h2>
+    <h2>@lists</h2>
 
-        <h3>unorderd list</h3>
-        <p>This list will not have the bullet</p>
+    <h3>unorderd list</h3>
+    <p>This list will not have the bullet</p>
 
-        <ul class="list-non-bullet">
-            <li>Item One</li>
-            <li>Item Two</li>
-            <li>Item Three</li>
+    <ul class="list-non-bullet">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+
+    <h3>unorderd inline list</h3>
+
+    <ul>
+        <li class="list-item-inline">inline Item One</li>
+        <li class="list-item-inline">inline Item Two</li>
+        <li class="list-item-inline">inline Item Three</li>
+    </ul>
+
+    <h3>reverse ordered list</h3>
+
+    <ol reversed>
+        <li>milk</li>
+        <li>egg</li>
+        <li>bread</li>
+    </ol>
+
+    <hr>
+
+    <h2>@nav</h2>
+
+    <nav class="navigation container">
+        <div class="nav-brand">iAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">products</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">about</a>
+            </li>
         </ul>
+    </nav>
 
-        <h3>unorderd inline list</h3>
+    <hr>
 
+    <h2>@header</h2>
+
+    <header>
+        <img src="images/hero.svg" />
+        <h1>heading inside hero</h1>
+    </header>
+
+    <hr>
+
+    <h2>@section</h2>
+    <section>
+        <h3>white section</h3>
+        <p>This will have white background</p>
+    </section>
+
+    <section>
+        <h3>off white section</h3>
+        <p>This will have gray background</p>
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+
+    <footer>
+        <div>
+            Some small heading inside footer
+        </div>
         <ul>
-            <li class="list-item-inline">inline Item One</li>
-            <li class="list-item-inline">inline Item Two</li>
-            <li class="list-item-inline">inline Item Three</li>
+            <li>socialOne</li>
+            <li>socialTwo</li>
+            <li>socialThree</li>
         </ul>
+    </footer>
 
-        <h3>reverse ordered list</h3>
 
-        <ol reversed>
-            <li>milk</li>
-            <li>egg</li>
-            <li>bread</li>
-        </ol>
-
-        <hr>
-
-        <h2>@nav</h2>
-
-        <nav>
-            <div>iAmBrand</div>
-            <ul>
-                <li>
-                    <a href="/">home</a>
-                </li>
-                <li>
-                    <a href="/">products</a>
-                </li>
-                <li>
-                    <a href="/">about</a>
-                </li>
-            </ul>
-        </nav>
-
-        <hr>
-
-        <h2>@header</h2>
-
-        <header>
-            <img src="images/hero.svg" />
-            <h1>heading inside hero</h1>
-        </header>
-
-        <hr>
-
-        <h2>@section</h2>
-        <section>
-            <h3>white section</h3>
-            <p>This will have white background</p>
-        </section>
-
-        <section>
-            <h3>off white section</h3>
-            <p>This will have gray background</p>
-        </section>
-
-        <hr>
-
-        <h2>@footer</h2>
-
-        <footer>
-            <div>
-                Some small heading inside footer
-            </div>
-            <ul>
-                <li>socialOne</li>
-                <li>socialTwo</li>
-                <li>socialThree</li>
-            </ul>
-        </footer>
-
-        
-    </body>
+</body>
 
 </html>
