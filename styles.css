@@ -8,11 +8,19 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0px;
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
 }
 
 hr {
     margin: 2rem 0rem;
+}
+
+/** spaces **/
+
+.margin-md {
+    margin: 2rem;
 }
 
 /** container **/
@@ -22,32 +30,43 @@ hr {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 900px;
+    width: 100%;
     margin: auto;
 }
 
 /** links **/
+
 .link {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
 .link-primary {
+    max-width: 140px;
+    padding: 0.6rem 1.2rem;
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
     color: white;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    
 }
 
 .link-secondary {
-    color: var(--primary-color);
-    border-radius: 0.5rem;
+    max-width: 140px;
+    margin: 1rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 2rem;
     border: 1px solid var(--primary-color);
+    color: var(--primary-color);
 }
 
 /** lists **/
 
 .list-non-bullet {
     list-style: none;
+    padding-inline-start: 0px;
 }
 
 .list-item-inline {
@@ -68,8 +87,14 @@ hr {
     font-weight: bold;
 }
 
+.nav-brand a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .navigation .nav-pills {
     text-align: right;
+    margin: 0.6rem 1rem;
 }
 
 .navigation .link {
@@ -88,7 +113,8 @@ hr {
 }
 
 .hero .hero-img {
-    max-width: 350px;
+    max-width: 80%;
+    width: 550px;
     display: block;
     margin: auto;
 }
@@ -107,6 +133,9 @@ hr {
 
 .section {
     padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
 }
 
 .section h1 {
@@ -139,3 +168,22 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
+
+/** projects **/
+
+.showcase-list {
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 3rem auto;
+}
+.showcase-list h1 {
+    margin: 0.5rem;
+}
+
+.showcase-list p {
+    padding-bottom: 1rem;
+}
+
+/** blogs **/
+
